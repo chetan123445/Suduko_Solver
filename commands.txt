@@ -1,0 +1,5 @@
+cd "C:\Users\CHETAN DUDI\OneDrive\Desktop\suduko\Suduko_Solver"
+
+g++ sudoku_gui.cpp -o sudoku_gui.exe -Iinclude -Llib -lraylib -lopengl32 -lgdi32 -lwinmm -Wall -Wextra -std=c++17
+
+./sudoku_gui.exe
