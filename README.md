@@ -2,8 +2,7 @@
 
 A feature-rich Sudoku solver application built in C++ with the [Raylib](https://www.raylib.com/) library. This application not only solves any valid Sudoku puzzle instantly but also provides a step-by-step visualization of the backtracking algorithm, making it an excellent tool for learning.
 
-![Sudoku Solver Screenshot](https://drive.google.com/file/d/1AwRaDBgw1e5UIoK5kw0BBoojHSYK3j21/view?usp=sharing) 
-*(Screenshot placeholder: You can replace this link with a real screenshot of your application)*
+https://drive.google.com/file/d/1AwRaDBgw1e5UIoK5kw0BBoojHSYK3j21/view?usp=sharing
 
 ---
 
