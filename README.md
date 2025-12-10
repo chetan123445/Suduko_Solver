@@ -41,7 +41,8 @@ Follow these instructions to compile and run the application on your local machi
     │   └── raylib.h
     ├── lib/
     │   └── libraylib.a  (or other raylib library file)
-    └── sudoku_gui.cpp
+    ├── src/
+    │   └── sudoku_gui.cpp
     ```
 
 2.  **Compile Command**: Open a terminal (like Git Bash or PowerShell) in the `Sudoku_Solver` directory and run the following command:
