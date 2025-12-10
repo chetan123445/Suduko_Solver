@@ -32,24 +32,38 @@ Follow these instructions to compile and run the application on your local machi
 - A C++ compiler that supports C++17 (like MinGW g++ on Windows).
 - The **Raylib** library files.
 
+### Directory Structure
+```
+c:\Users\CHETAN DUDI\OneDrive\Desktop\suduko\Suduko_Solver\
+├───build_cli.bat
+├───build_gui.bat
+├───commands.txt
+├───README.md
+├───.git\
+├───.vscode\
+│   ├───c_cpp_properties.json
+│   ├───launch.json
+│   └───settings.json
+├───include\
+│   ├───raylib.h
+│   ├───raymath.h
+│   └───rlgl.h
+├───lib\
+│   ├───libraylib.a
+│   ├───libraylibdll.a
+│   └───raylib.dll
+├───src\
+└───Test Cases\
+```
+
 ### Compilation
 
-1.  **File Structure**: Ensure your project directory is set up correctly. The necessary Raylib files should be placed in `include` and `lib` folders relative to the source code:
-    ```
-    Suduko_Solver/
-    ├── include/
-    │   └── raylib.h
-    ├── lib/
-    │   └── libraylib.a  (or other raylib library file)
-    └── sudoku_gui.cpp
-    ```
+Open a terminal in the `Sudoku_Solver` directory and run the following command to build the GUI version of the application:
 
-2.  **Compile Command**: Open a terminal (like Git Bash or PowerShell) in the `Sudoku_Solver` directory and run the following command:
-
-    ```bash
-    g++ sudoku_gui.cpp -o sudoku_gui.exe -Iinclude -Llib -lraylib -lopengl32 -lgdi32 -lwinmm -Wall -Wextra -std=c++17
-    ```
-    This will create an executable file named `sudoku_gui.exe`.
+```bash
+./build_gui.bat
+```
+This will create an executable file named `sudoku_gui.exe`.
 
 ### Running the Application
 
